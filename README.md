@@ -12,3 +12,5 @@
    1. playground/hello/ -> say_hello()
 5. urls, playground/urls
    1. playground/ -> hello/ -> say_hello()
+6. templates/playground/hello.html
+   1. playground/ -> hello_html/ -> say_hello_html() -> html
