@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('playground/', include('playground.urls')),
+    path('self_redvelvet/', include('self_redvelvet.urls')),
     path('admin/', admin.site.urls),
 ]
